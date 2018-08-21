@@ -1,6 +1,10 @@
 # React-context-and-Refs
-    This project template was built with Create React App, which provides a simple way to start React projects with no build configuration needed.It is an exercise for using React version 16.4.2 Context API and Refs;
-    It contains a Main section - with a button, User Information section - containing the name and age of the user and a Todo list
+    This project template was built with Create React App.
+    It is an exercise for using React version 16.4.2 Context API and Refs;
+    It contains: 
+    *  Main section - with a button to change the user name,
+    *  User Information section - containing the name and age of the user
+    *  Todo list
 
 ## Installation
     Clone repository from :
