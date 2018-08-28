@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Component should render without any errors 1`] = `
+<div
+  className="Form"
+>
+  <p>
+    Todo list
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="Todos"
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Add a Todo
+    </button>
+  </form>
+  <ul
+    className="Todo-list"
+  />
+</div>
+`;
