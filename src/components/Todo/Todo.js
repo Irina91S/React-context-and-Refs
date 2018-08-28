@@ -11,20 +11,20 @@ class Todo extends Component {
         this.textInput = React.createRef();
       }
     
-      addItem= (event) => {    
-		event.preventDefault();
-		if(this.textInput.current.value !== ""){ 
-			let newItem = {							// creates a new object and sets its value to the current value in the input 
-				text: this.textInput.current.value,
-				key: Date.now()
-			};
-			this.setState((prevState) => { // using the prevState we do not mutate the state , we add to the itmes array with concat the new value
-				return {
-					items: prevState.items.concat(newItem)
+    addItem = (event) => {    
+			event.preventDefault();
+			if(this.textInput.current.value !== ""){ 
+				let newItem = {							// creates a new object and sets its value to the current value in the input 
+					text: this.textInput.current.value,
+					key: Date.now()
 				};
-			});
-		}
-		this.textInput.current.value = "";
+				this.setState((prevState) => { // using the prevState we do not mutate the state , we add to the itmes array with concat the new value
+					return {
+						items: prevState.items.concat(newItem)
+					};
+				});
+			}
+			this.textInput.current.value = "";
 	  }
 	  
 	  deleteItem = (key) => {
