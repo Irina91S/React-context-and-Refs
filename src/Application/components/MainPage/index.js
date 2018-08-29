@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from './Main';
-import { UserContext }from '../../contexts/UserContext';
+import Main from './MainPage';
+import { UserContext }from '../../../contexts/UserContext';
 
 export default props => (
     <UserContext.Consumer>

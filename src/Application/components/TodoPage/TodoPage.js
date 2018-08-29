@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Todo.css';
 import TodoItems from './TodoItems';
 
-class Todo extends Component {
+class TodoPage extends Component {
     constructor(props) {
 		super(props);
 		this.state = {
@@ -55,4 +55,4 @@ class Todo extends Component {
       }
 }
 
-export default Todo;
+export default TodoPage;

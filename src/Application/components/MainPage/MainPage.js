@@ -1,7 +1,8 @@
 import React  from "react";
-import './Main.css';
+import './MainPage.css';
+import User from './User/index';
 
- const Main = (props) => {
+ const MainPage = (props) => {
         return (
             <div className="Main">
                 <h1>Main</h1>
@@ -11,8 +12,9 @@ import './Main.css';
                 >
                     Change the Username
                 </button>
+                <User/>
             </div>
         );
 }
-export default Main;
+export default MainPage;
  
