@@ -1,4 +1,4 @@
-.Form {
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,35 +6,18 @@
     align-items: center;
 }
 
-.Form input {
+.form input {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #a70a0a;
 }
 
-button {
-    background-color: #a70a0a;
-    color: #ffffff;
-    opacity: 0.6;
-    transition: 0.3s;
-    border: 1px solid #a70a0a;
-    padding: 10px;
-    font-size: 16px;
-    margin-right: 0;
-}
-
-button:hover {
-    opacity: 1;
-    color: #000000;
-    cursor: pointer;
-}
-
-ul.Todo-list {
+ul.todo-list {
     padding: 0;
     margin-top: 20px;
 }
 
-.Todo-list li {
+.todo-list li {
     color: #333;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgb(161, 157, 157);
@@ -44,7 +27,7 @@ ul.Todo-list {
     list-style: none;
 }
 
-.Todo-list li:hover {
+.todo-list li:hover {
     background-color: rgba(255, 255, 255, 1);
     color: #a70a0a;
     transform: scale(1.5);

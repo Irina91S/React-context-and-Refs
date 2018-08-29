@@ -4,7 +4,7 @@ import "./App.css";
 import MainPage from "./components/MainPage/index";
 import TodoPage from "./components/TodoPage/TodoPage";
 import Navigation from '../Application/components/Navigation/Navigation';
-import Error from './components/Shared/Error/Error';
+import Error from './components/ErrorPage/Error';
 
 class App extends Component {
   render() {

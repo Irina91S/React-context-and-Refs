@@ -1,18 +1,13 @@
 import React  from "react";
 import './MainPage.css';
 import User from './User/index';
+import Button from '../Shared/Button/Button';
 
  const MainPage = (props) => {
         return (
-            <div className="Main">
-                <h1>Main</h1>
-                <button
-                    className="Button"
-                    onClick={props.setName}
-                >
-                    Change the Username
-                </button>
+            <div className="main">
                 <User/>
+                <Button onClick={props.setName} className="Button">Change user</Button>
             </div>
         );
 }

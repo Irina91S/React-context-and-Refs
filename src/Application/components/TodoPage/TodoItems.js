@@ -19,7 +19,7 @@ class TodoItems extends Component {
         let listItems = todoEntries.map(this.createTask); // takes every item in the props array and uses the map function to iterate over everyitem and create an list element where each list item's value is the item's text and key 
 
         return (
-            <ul className="Todo-list">
+            <ul className="todo-list">
                 {listItems}
             </ul>
         );

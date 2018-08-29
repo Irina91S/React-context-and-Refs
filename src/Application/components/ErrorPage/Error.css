@@ -1,0 +1,7 @@
+.error {
+    width: 60%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../Shared/Assets/404.png");
+}
